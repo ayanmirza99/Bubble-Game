@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="overlay" class="overlay"></div>
+        <div class="modal">
+            <div class="heading">
+                <h1 style="font-size: 50px; font-family: cursive;">BUBBLE GAME</h1>
+            </div>
+            <div class="instructions">
+                <h2>How To Play</h2>
+                <div class="header-img">
+                    <img src="./Pictures/interface.JPG" alt="">
+                </div>
+                <p>In the hit box a number will appear among thwe bubbles given below find a bubble with that number and pop it by clicking on it. Each bubble is worth 10 points. Pop as amany bubbles as you can in 60 seconds. 
+                </p>
+            </div>
+            <div class="modalBtm">
+                <button id="closeModalBtn">PLAY</button>
+                <div class="modalCounterBox">3</div>
+            </div>
+        </div>
+        <h1 class="title">Bubble Game</h1>
+        <div class="container">
+            <div class="upper">
+                <div class="box">
+                    <div class="hit"></div>
+                    <h4>Hit</h4>
+                </div>
+                <div class="box">
+                    <div class="timer">60</div>
+                    <h4>Timer</h4>
+                </div>
+                <div class="box">
+                    <div class="score">0</div>
+                    <h4>Score</h4>
+                </div>
+            </div>
+            <div class="bottom">
+                <!-- Bubbles Coming from script.js -->
+            </div>
+        </div>
+        <button id="replayBtn">PLAY AGAIN</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
